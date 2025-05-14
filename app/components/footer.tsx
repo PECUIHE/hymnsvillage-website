@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { FaFacebookF, FaXTwitter, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
+// import { FaFacebookF, FaXTwitter, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
 import Input from '../components/ui/Input';
 import Button from '../components/ui/Button';
 import Image from 'next/image';
