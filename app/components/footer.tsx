@@ -6,6 +6,7 @@ import Input from '../components/ui/Input';
 import Button from '../components/ui/Button';
 import Image from 'next/image';
 import Link from 'next/link';
+import SocialLinks from './SocialLinks';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -104,11 +105,12 @@ const Footer = () => {
           {/* Social Media */}
           <div>
             <h4 className="font-semibold mb-3">Socials</h4>
-            <div className="flex gap-3 text-white text-xl">
-              <a href="#"><FaFacebookF className="bg-[#1877f2] rounded-full p-2 w-9 h-9" /></a>
+            <div className="flex gap-4 text-white text-xl">
+              <SocialLinks />
+              {/* <a href="#"><FaFacebookF className="bg-[#1877f2] rounded-full p-2 w-9 h-9" /></a>
               <a href="#"><FaXTwitter className="bg-[#333] rounded-full p-2 w-9 h-9" /></a>
               <a href="#"><FaYoutube className="bg-[#ff0000] rounded-full p-2 w-9 h-9" /></a>
-              <a href="#"><FaLinkedinIn className="bg-[#0a66c2] rounded-full p-2 w-9 h-9" /></a>
+              <a href="#"><FaLinkedinIn className="bg-[#0a66c2] rounded-full p-2 w-9 h-9" /></a> */}
             </div>
           </div>
         </div>
