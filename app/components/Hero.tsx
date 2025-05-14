@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SocialLinks from "./SocialLinks";
-import MobileMenu from "./MobileMenu";
+
 
 export default function HeroSection() {
   return (

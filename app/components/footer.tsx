@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { FaFacebookF, FaXTwitter, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
-import Input from '@/components/ui/Input';
-import Button from '@/components/ui/Button';
+import Input from '../components/ui/Input';
+import Button from '../components/ui/Button';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -42,8 +42,9 @@ const Footer = () => {
               required
               className="flex-1 text-sm"
             />
-            <Button type="submit"
-             >Subscribe</Button>
+            <Button type="submit">
+              Subscribe
+            </Button>
           </form>
         </div>
 

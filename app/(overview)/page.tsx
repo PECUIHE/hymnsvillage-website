@@ -1,6 +1,6 @@
-import AboutUsSection from '@/components/About'
-import InsightsSection from '@/components/Blog';
-import HeroSection from '@/components/Hero';
+import AboutUsSection from '../components/About'
+import InsightsSection from '@/app/components/Blog';
+import HeroSection from '../components/Hero';
 import React from 'react';
 
 interface Article {
