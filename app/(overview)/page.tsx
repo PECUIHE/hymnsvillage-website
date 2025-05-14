@@ -1,5 +1,5 @@
 import AboutUsSection from '../components/About'
-import InsightsSection from '@/app/components/Blog';
+import InsightsSection from '../components/Blog';
 import HeroSection from '../components/Hero';
 import React from 'react';
 
