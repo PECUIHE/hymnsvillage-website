@@ -9,13 +9,13 @@ export default function HeroSection() {
 
       {/* Background image */}
         <Image
-            src="/hymns-hero.jpg"
-            alt="Hero Background"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            className="z-10 w-full h-full"
-            style={{ filter: "blur(1px)" }} // Optional: Add a blur effect to the background image
+          src="/hymns-hero.jpg"
+          alt="Hero Background"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+          className="z-10 w-full h-full"
+          style={{ filter: "blur(1px)" }} // Optional: Add a blur effect to the background image
         />
       
 

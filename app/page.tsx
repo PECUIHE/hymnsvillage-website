@@ -1,6 +1,6 @@
-import AboutUsSection from '../components/About'
-import InsightsSection from '../components/Blog';
-import HeroSection from '../components/Hero';
+import AboutUsSection from './components/About'
+import InsightsSection from './components/Blog';
+import HeroSection from './components/Hero';
 import React from 'react';
 
 interface Article {
@@ -31,7 +31,7 @@ const featured: Article[] = [
     category: 'Travel',
     author: 'Hudson',
     time: '1 day ago',
-    image: '/ Group 13.png',
+    image: '/Group 13.png',
   },
   {
     title: 'Explore Nature With These Tranquil Trails',
