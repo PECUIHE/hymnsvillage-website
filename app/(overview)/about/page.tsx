@@ -1,3 +1,5 @@
+'use client';
+
 import SocialLinks from "@/app/components/SocialLinks";
 import Image from "next/image";
 import React from "react";

@@ -108,3 +108,4 @@ function getBadgeColor(category: string) {
       return 'bg-blue-500';
   }
 }
+
