@@ -52,6 +52,7 @@ const VisitorsBarChart = () => {
         <select
           className="border border-gray-200 text-sm px-3 py-1 rounded-md text-gray-600 bg-white focus:outline-none"
           value={selected}
+          // eslint-disable-next-line
           onChange={(e) => setSelected(e.target.value as any)}
         >
           <option>Daily</option>
