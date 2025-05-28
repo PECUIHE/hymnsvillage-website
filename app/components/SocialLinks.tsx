@@ -1,5 +1,6 @@
-// components/ui/SocialLinks.tsx
+"use client";
 
+import React from 'react';
 import { FaFacebookF, FaXTwitter, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
 
 const socialMedia = [

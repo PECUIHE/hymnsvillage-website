@@ -30,12 +30,12 @@ export default function SearchSection() {
               placeholder="Search articles"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              className="w-full py-2 outline-none text-sm placeholder-gray-500 bg-transparent"
+              className="w-full py-2 outline-none text-sm placeholder-gray-400 bg-transparent"
             />
           </div>
           <button
             type="submit"
-            className="bg-black text-white px-6 py-2 text-sm font-medium rounded-full"
+            className="bg-black text-white px-6 py-2 text-sm font-medium rounded-full cursor-pointer"
           >
             Search
           </button>
@@ -44,3 +44,6 @@ export default function SearchSection() {
     </section>
   );
 }
+
+// This component provides a search bar for users to search articles by keywords.
+// It uses Next.js's useRouter for navigation and manages the search query state.

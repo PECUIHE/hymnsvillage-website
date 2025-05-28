@@ -1,6 +1,8 @@
-import AboutUsSection from './components/About'
-import InsightsSection from './components/Blog';
-import HeroSection from './components/Hero';
+import AboutUsSection from '@/app/components/About'
+import AdvertisementSection from '@/app/components/Advert';
+import InsightsSection from '@/app/components/Blog';
+import FeaturedHymns from '@/app/components/FeaturedHymns';
+import HeroSection from '@/app/components/Hero';
 import React from 'react';
 
 interface Article {
@@ -88,11 +90,12 @@ function Home() {
       <HeroSection />
       {/* <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100"> */}
       <AboutUsSection />
+      <FeaturedHymns />
       <InsightsSection featured={featured} recent={recent} />
+      <AdvertisementSection />
     </div>
   )
 }
 
 export default Home;
-
 

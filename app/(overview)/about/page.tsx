@@ -146,6 +146,8 @@ const AboutPage = () => {
       </div>
     </div>
   );
-};
+}
 
 export default AboutPage;
+
+// This code defines an About page for a website called Hymns Village. It includes a hero banner with a background image, an about section detailing the mission and purpose of the site, and a team section showcasing team members with their roles and images. The page is styled using Tailwind CSS classes for layout and design.

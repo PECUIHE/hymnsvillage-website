@@ -1,14 +1,15 @@
 'use client';
 
-import Contact from '@/app/components/Contact'
-import React from 'react'
+import Contact from '@/app/components/Contact';
+import React from 'react';
 
-function page() {
+function ContactPage() {
   return (
     <div>
         <Contact />
     </div>
-  )
+  );
 }
 
-export default page
+export default ContactPage;
+
