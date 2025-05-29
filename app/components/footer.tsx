@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import SocialLinks from './SocialLinks';
 import Input from '@/app/components/ui/Input';
 import Button from '@/app/components/ui/Button';
-import Image from 'next/image';
-import Link from 'next/link';
 import { FaRegUser } from 'react-icons/fa';
 
 // Footer component with a newsletter subscription form and social media links
@@ -56,13 +56,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Logo + About */}
           <div>
-            <div className="flex items-center justify-center md:items-start md:justify-start gap-2 mb-4 cursor-pointer">
+            <div className="flex items-center justify-center md:justify-start gap-2 mb-4 cursor-pointer">
               <Image 
-                src="/logo 1.png" 
+                src="/logo.png" 
                 alt="Hymns Village" 
-                width={500}
-                height={100}
-                className="w-10 h-10 rounded-full" 
+                width={40}
+                height={40}
+                className="rounded-full" 
               />
               <h3 className="text-lg font-semibold">Hymns Village</h3>
             </div>
